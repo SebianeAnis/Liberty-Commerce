@@ -1,0 +1,932 @@
+
+
+/*     CSS DU LAYOUT  */ 
+
+*{
+    
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+body, html{
+    
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background-color: rgb(202, 197, 197);
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    padding: 18px;
+    font-size: 14px;
+}
+
+a{
+    
+    color: rgb(0, 0, 0);
+}
+.redirections{
+    display: flex;
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    
+}
+
+.nomdusite{
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nu{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+p1{text-decoration : underline;}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 12%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.reseaux{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contact{
+    
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+
+.page{
+    
+    width: 100%;
+    height: 78%;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+
+/*     CSS DU LAYOUT  */ 
+
+/*     CSS DE PAGE ADMIN  */ 
+
+.nvproduit{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(197, 193, 193);
+    border: 1px solid rgb(0, 0, 0);
+    width: 70%;
+    height: 70%;
+    font-size: 15px;
+    border-radius: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+    gap: 10px;
+    
+}
+
+
+.boutonpageadmin{
+    background-color: rgb(42, 43, 44);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    width: 110px;
+    border: none;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+
+.champs{
+    background-color: rgb(197, 193, 193);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    
+    
+}
+
+.champstitre{
+    background-color: rgb(197, 193, 193);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.champsdescription{
+    background-color: rgb(197, 193, 193);
+    width: 60%;
+    height: 5%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.champscategorie{
+    
+    background-color: rgb(197, 193, 193);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.champsprix{
+    background-color: rgb(197, 193, 193);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+
+.titre{
+    
+    padding: 15px;
+    height: 10%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+label{
+    
+    font-weight: bold;
+    
+}
+
+/*     CSS DE PAGE ADMIN  */ 
+
+
+/*     CSS DE PAGE CATALOGUE  */ 
+
+.pagecatalogue{ 
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    height: 78%;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+    
+    flex-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+    justify-content: flex-start;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.child{
+    
+    
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid black;
+    
+}
+
+.nomprixarticle{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.photoarticle{
+    
+    width: 250px;
+    height: 280px;
+    text-align: center;
+}
+
+.prixarticle{
+    
+    color: rgb(83, 78, 78);
+    font-size: 15px;
+}
+
+.nomarticle{
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+.boutonsarticle{
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.bouton{
+    background-color: rgb(42, 43, 44);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    width: 75px;
+    border: none;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+}
+
+/*  CSS DE PAGE CATALOGUE  */ 
+
+
+
+/*  CSS DE PAGE LOGIN  */ 
+
+
+.bodydulogin{
+    
+    background-image: url(https://s3.eu-central-1.amazonaws.com/ecohealthlab.com/wp-content/uploads/2017/09/04205246/organic-cotton-fabrics-regular-cotton-1024x683.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Connexion{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 20%;
+    height: 40%;
+    font-size: 25px;
+    border-radius: 10px;
+    opacity: 0.90;
+}
+
+
+.boutondulogin{
+    background-color: rgb(42, 43, 44);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    width: 110px;
+    border: none;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.champsdulogin{
+    
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    
+}
+
+
+/*  CSS DE PAGE LOGIN  */ 
+
+
+/*  CSS DE PAGE MDPENVOYE  */ 
+
+
+.pagemdpenvoyé{
+    
+    width: 100%;
+    height: 78%;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+
+/*  CSS DE PAGE MDPENVOYE  */ 
+
+
+
+/*  CSS DE PAGE NVPRODUIT  */ 
+
+
+
+.pagenvproduit{
+    
+    width: 100%;
+    height: 78%;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+/*  CSS DE PAGE NVPRODUIT  */ 
+
+
+/*  CSS DE PAGE PRODUIT  */ 
+
+
+
+
+
+
+.pagepageproduit{
+    
+    width: 100%;
+    height: 78%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+
+.tout{
+    
+    
+    margin: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.cotegauche{
+    width: 40%;
+    
+    
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.photospageproduit{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.grandephoto{
+    
+    
+    width: 420px;
+    height: 500px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.petitephoto{
+    
+    display: flex;
+    flex-direction: row;
+    
+    width: 350px;
+    height: 75px;
+    margin: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4px;
+}
+
+
+
+
+
+.cotedroit{
+    
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.descriptionall{
+    
+    width: 98%;
+    height: 98%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.haut{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    height: 65%;
+    align-items: center;
+}
+
+
+.bas{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    height: 35%;
+    align-items: center;
+    
+}
+
+.nom{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 60px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.catégorie{
+    
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 60px;
+    margin: 5px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.description{
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 65%;
+    height: 60%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-margin-right: 3px;
+    font-size: 16px;
+    
+}
+
+
+.stockprix{
+    
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 60%;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.achats{
+    
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 60%;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.boutonpageproduit{
+    background-color: rgb(42, 43, 44);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    width: auto;
+    border: none;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    padding: 3px;
+}
+
+.nomm{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.stock{
+    
+    
+    color: green;
+}
+
+.prix{
+    
+    font-weight: bold;
+}
+
+
+
+/*  CSS DE PAGE PRODUIT  */ 
+
+
+
+/*  CSS DE PAGE PANIER  */ 
+
+
+.titrepanier{
+    
+    margin-top: 20px;
+    padding: 15px;
+    height: 15%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.panier{
+    padding: 15px;
+    width: 90%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+
+.tableau{
+    
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(198, 196, 196);
+    border-radius: 20px;
+}
+
+table
+{
+    height: 80%;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+
+
+/*  CSS DE PAGE PANIER  */ 
+
+/*  CSS DE PAGE PROFIL  */ 
+
+.pagepageprofil{
+    
+    width: 100%;
+    height: 78%;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+}
+
+
+.titrepageprofil{
+    
+    display: flex;
+    margin: 10px;
+    height: 15%;
+    width: 95%;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionpageprofil{
+    
+    width: 95%;
+    height: 85%;
+    margin: 10px;
+    padding: 5px;
+    flex-direction: column;
+    
+}
+
+.titreprofil{
+    
+    font-size: 45px;
+    
+    color: rgb(62, 61, 61);
+}
+
+/*  CSS DE PAGE PROFIL  */ 
+
+
+/*  CSS DE PAGE REGISTER  */
+
+
+.bodyregister{
+    
+    background-image: url(https://images.alphacoders.com/462/thumb-1920-462944.jpg);
+    background-size: cover;
+}
+
+
+.Inscription{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 20%;
+    height: 60%;
+    font-size: 25px;
+    border-radius: 10px;
+    opacity: 0.90;
+}
+
+
+.boutonregister{
+    background-color: rgb(42, 43, 44);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    width: 110px;
+    border: none;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.champsregister{
+    
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    
+}
+
+/*  CSS DE PAGE PROFIL  */ 
+
+
+/*  CSS DE PAGE RESET  */ 
+
+.bodyreset{
+    
+    background-image: url(https://s1.1zoom.me/b5050/239/431575-Kysb_2560x1440.jpg);
+    background-size: cover;
+}
+
+
+.Récupération{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    margin-bottom: 8%;
+    width: 39%;
+    height: 28%;
+    font-size: 25px;
+    opacity: 0.90;
+}
+
+
+.boutonreset{
+    background-color: rgb(42, 43, 44);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+}
+
+.champsreset{
+    
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    
+}
+
+
+/*  CSS DE PAGE RESET  */ 
+
+
+.ml-4 {
+    
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
+.layoutdroit{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.boutondashboard{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boutonwelcome{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boutoncataloguee{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lignebonjour{
+    
+    
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lienprofil{
+    
+    margin-left: 6px;
+    margin-right: 5px;
+}
+
+.boutonsacheté{
+
+
+    display: flex;
+    flex-direction: row;
+    font-style: none;
+    gap: 20px;
+    color: rgb(34, 33, 33);
+    font-size: 19px;
+}
+
+
+.boutondashboardd{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    margin: 10px;
+}
